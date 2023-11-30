@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="titanium"
+    android:background="@drawable/biru">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/titanium"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:paddingStart="10dp"
+        android:src="@drawable/part1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <RelativeLayout
+        android:layout_below="@+id/titanium"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titanium"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/nama2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nama"
+            android:textSize="18dp"
+            android:text="Baut titanium adalah suatu jenis elemen penyambung atau pengencang yang terbuat dari logam ringan yang disebut titanium. Titanium merupakan logam transisi yang memiliki sifat ringan, kuat, dan tahan terhadap korosi. Sifat-sifat ini membuat baut titanium menjadi pilihan yang populer dalam berbagai aplikasi, terutama di industri aerospace, medis, dan otomotif."
+            android:textColor="@color/white"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
